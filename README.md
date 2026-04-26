@@ -6,7 +6,7 @@ My personal portfolio website showcasing my skills, projects, and experience in 
 
 **URL:** `https://krrishjain2308.github.io/my_portfolio/`
 
-*(Replace with your actual GitHub username)*
+KrrishJain2308
 
 ## 🛠️ Built With
 
