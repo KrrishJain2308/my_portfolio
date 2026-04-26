@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krrish Jain | Data Science & ML Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">KJ.</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <canvas id="particles-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-circle"></i>
+                Available for Opportunities
+            </div>
+            <h1>Hi, I'm <span>Krrish Jain</span></h1>
+            <div class="subtitle">
+                <span id="typewriter"></span><span class="cursor"></span>
+            </div>
+            <p class="hero-desc">
+                B.Tech Data Science student at UPES with hands-on experience in Python, SQL, and Machine Learning. 
+                I transform raw data into intelligent solutions that drive real-world impact.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> View My Work
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+            </div>
+            <div class="hero-socials">
+                <a href="mailto:krrishjain2308@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+918384095352" title="Phone"><i class="fas fa-phone"></i></a>
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header reveal">
+            <h2>About Me</h2>
+            <p>Passionate about turning data into actionable insights</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-image reveal">
+                <div class="about-image-wrapper">
+                    <div class="about-image-inner">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content reveal">
+                <h3>Data Science Enthusiast & Problem Solver</h3>
+                <p>
+                    I'm a B.Tech Computer Science (Data Science) student at UPES, Dehradun, with a strong foundation 
+                    in Python, SQL, and Machine Learning. My journey in data science began with a curiosity about 
+                    how data shapes decisions — and evolved into building predictive models that improve accuracy by 10–20%.
+                </p>
+                <p>
+                    From automating invoice generation (reducing manual effort by 80%) to developing personality 
+                    assessment platforms using the Big Five model, I thrive on creating solutions that bridge 
+                    the gap between complex data and human understanding.
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10000">0</div>
+                        <div class="stat-label">Records Analyzed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="20">0</div>
+                        <div class="stat-label">% Accuracy Boost</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="80">0</div>
+                        <div class="stat-label">% Automation Gain</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-header reveal">
+            <h2>Technical Skills</h2>
+            <p>Tools and technologies I work with</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">SQLite3</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                <h3>Machine Learning</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Supervised Learning</span>
+                    <span class="skill-tag">Scikit-learn</span>
+                    <span class="skill-tag">Model Tuning</span>
+                    <span class="skill-tag">Predictive Modeling</span>
+                    <span class="skill-tag">Hyperparameter Tuning</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Data Science</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Data Analysis</span>
+                    <span class="skill-tag">Data Cleaning</span>
+                    <span class="skill-tag">EDA</span>
+                    <span class="skill-tag">Feature Selection</span>
+                    <span class="skill-tag">Feature Engineering</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                <h3>Libraries & Tools</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Pandas</span>
+                    <span class="skill-tag">NumPy</span>
+                    <span class="skill-tag">Jupyter Notebook</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-header reveal">
+            <h2>Experience</h2>
+            <p>My professional journey so far</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Jan 2026 – Feb 2026</span>
+                    <h3>Data Science Intern</h3>
+                    <span class="company">Corizo · Remote</span>
+                    <ul>
+                        <li>Completed structured data science internship solving real-world projects involving data preprocessing, analysis, and predictive modeling using Python, Pandas, NumPy, and Scikit-learn on datasets of <strong>10,000+ records</strong></li>
+                        <li>Improved model accuracy by <strong>10–20%</strong> through data cleaning, feature selection, and basic hyperparameter tuning across multiple case studies</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">May 2025 – Jul 2025</span>
+                    <h3>Digital Marketing & Social Media Intern</h3>
+                    <span class="company">Spaceyfi · Dehradun, Uttarakhand</span>
+                    <ul>
+                        <li>Planned and executed digital marketing campaigns across Instagram and LinkedIn, contributing to <strong>20–30% increase</strong> in reach and <strong>15% growth</strong> in follower base over 3 months</li>
+                        <li>Conducted market research and competitor analysis on <strong>10+ competitors</strong>, identifying trends that improved campaign targeting efficiency by <strong>25%</strong></li>
+                        <li>Created and scheduled <strong>30+ social media posts</strong> monthly, boosting engagement rates by 18–22% and increasing brand visibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-header reveal">
+            <h2>Featured Projects</h2>
+            <p>Some things I've built</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-image"><i class="fas fa-brain"></i></div>
+                <div class="project-content">
+                    <span class="project-status status-progress">In Progress</span>
+                    <h3>PsychTrack</h3>
+                    <p>Developing a web-based platform for IQ, EQ, and personality assessment using structured questionnaires and the Big Five model. Trained personality trait prediction models on IPIP dataset using Scikit-learn with advanced data preprocessing and feature engineering.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Web Development</span>
+                        <span>Scikit-learn</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-image" style="background: var(--gradient-2);"><i class="fas fa-book"></i></div>
+                <div class="project-content">
+                    <span class="project-status status-completed">Completed</span>
+                    <h3>Book Analysis</h3>
+                    <p>Performed comprehensive exploratory data analysis (EDA) on book datasets using Pandas. Cleaned and processed data to extract actionable insights about reading trends, author popularity, and genre distributions.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Jupyter Notebook</span>
+                        <span>EDA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-image" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);"><i class="fas fa-file-invoice"></i></div>
+                <div class="project-content">
+                    <span class="project-status status-completed">Completed</span>
+                    <h3>Invoice & PDF Automation Tools</h3>
+                    <p>Built Python automation tools that convert Excel data to PDF documents, reducing invoice generation manual effort by 80%. Streamlined business workflows with customizable templates and batch processing capabilities.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>PDF Generation</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="section-header reveal">
+            <h2>Education & Certifications</h2>
+            <p>My academic background and credentials</p>
+        </div>
+        <div class="edu-grid">
+            <div class="edu-card reveal">
+                <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="edu-info">
+                    <h3>B.Tech in Computer Science (Data Science)</h3>
+                    <div class="institution">UPES, Dehradun, India</div>
+                    <div class="year">Expected Graduation: 2027</div>
+                </div>
+            </div>
+            <div class="edu-card reveal">
+                <div class="edu-icon" style="background: var(--gradient-2);"><i class="fas fa-school"></i></div>
+                <div class="edu-info">
+                    <h3>Class XII – CBSE</h3>
+                    <div class="institution">Apeejay School, Pitampura, New Delhi</div>
+                    <div class="year">2023</div>
+                </div>
+            </div>
+        </div>
+        <div class="certs-list">
+            <div class="cert-item reveal">
+                <i class="fas fa-certificate"></i>
+                <span>Python for Data Science & ML Bootcamp (Jose Portilla)</span>
+            </div>
+            <div class="cert-item reveal">
+                <i class="fas fa-certificate"></i>
+                <span>The Complete SQL Bootcamp (2025)</span>
+            </div>
+            <div class="cert-item reveal">
+                <i class="fas fa-certificate"></i>
+                <span>Data Science Internship – Corizo</span>
+            </div>
+            <div class="cert-item reveal">
+                <i class="fas fa-certificate"></i>
+                <span>Learn Python from Beginner to Pro – Ardit</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header reveal">
+            <h2>Get In Touch</h2>
+            <p>Let's build something amazing together</p>
+        </div>
+        <div class="contact-wrapper reveal">
+            <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem;">
+                I'm currently open to internships, freelance projects, and collaboration opportunities. 
+                Whether you have a question or just want to say hi, I'll do my best to get back to you!
+            </p>
+            <div class="contact-cards">
+                <a href="mailto:krrishjain2308@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <span>krrishjain2308@gmail.com</span>
+                </a>
+                <a href="tel:+918384095352" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h4>Phone</h4>
+                    <span>+91 83840 95352</span>
+                </a>
+                <a href="#" class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Location</h4>
+                    <span>New Delhi, India</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Krrish Jain. Crafted with <i class="fas fa-heart heart"></i> and lots of coffee.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
